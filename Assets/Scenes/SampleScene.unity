@@ -4658,7 +4658,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533232876}
-  m_LocalRotation: {x: 0.05933833, y: -0.693544, z: 0.05750461, w: 0.71565986}
+  m_LocalRotation: {x: 0.10004603, y: -0.68758565, z: 0.09652451, w: 0.7126709}
   m_LocalPosition: {x: 7.7458878, y: 2.3, z: 0.2529337}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13693,6 +13693,7 @@ GameObject:
   - component: {fileID: 1551148057}
   - component: {fileID: 1551148059}
   - component: {fileID: 1551148058}
+  - component: {fileID: 1551148060}
   m_Layer: 5
   m_Name: Message
   m_TagString: Untagged
@@ -13714,11 +13715,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1214004602}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 25.247, y: -36.7834}
-  m_SizeDelta: {x: 149.51, y: 8.4333}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.703704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 25.247, y: -20.783401}
+  m_SizeDelta: {x: 149.51, y: 8.433304}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1551148058
 MonoBehaviour:
@@ -13817,6 +13818,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551148056}
   m_CullTransparentMesh: 1
+--- !u!111 &1551148060
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551148056}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 76bc129e356dbfb47b509781c8ed2605, type: 2}
+  - {fileID: 7400000, guid: e50732cf455613a47affe56c40caf47d, type: 2}
+  - {fileID: 7400000, guid: 4facc1d6ecb62004880cfa575e4fda88, type: 2}
+  - {fileID: 7400000, guid: d546197422194a64da6138562aa029bb, type: 2}
+  - {fileID: 7400000, guid: c91e097efb4cbbb42a0dad43f2ac43d1, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &1555076881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18808,19 +18829,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1178604381, guid: 8c9a382879345ce4c9647ea56f325938, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.99657786
+      value: -0.99028015
       objectReference: {fileID: 0}
     - target: {fileID: 1178604381, guid: 8c9a382879345ce4c9647ea56f325938, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.08263041
+      value: -0.13901731
       objectReference: {fileID: 0}
     - target: {fileID: 1178604381, guid: 8c9a382879345ce4c9647ea56f325938, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0021840632
+      value: -0.004368931
       objectReference: {fileID: 0}
     - target: {fileID: 1178604381, guid: 8c9a382879345ce4c9647ea56f325938, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00018108636
+      value: 0.00061332434
       objectReference: {fileID: 0}
     - target: {fileID: 1417656908, guid: 8c9a382879345ce4c9647ea56f325938, type: 3}
       propertyPath: m_Layer
